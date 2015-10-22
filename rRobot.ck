@@ -1,3 +1,9 @@
+// rRobot.ck
+// Eric Heep, October 2015
+// ~
+// example code that uses the Gamelan
+// framework to control the robots in the Machine Lab
+
 // groove receiver
 OscRecv recv;
 6449 => recv.port;
