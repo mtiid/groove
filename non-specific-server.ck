@@ -52,9 +52,9 @@ while( true )
                 // start the message...
                 xmit[z].startMsg( "/plork/synch/clock", "i i" );
 
-                // a message is kicked as soon as it is complete 
+                // a message is kicked as soon as it is complete
                 x => xmit[z].addInt; y => xmit[z].addInt;
-                
+
                 xmit[z].startMsg( "/plork/synch/filter", "f f" );
                 Math.random2f(100, 500) => xmit[z].addFloat;
                 Math.random2f(0.5, 2) => xmit[z].addFloat;
@@ -64,4 +64,3 @@ while( true )
             T => now;
         }
 }
-
