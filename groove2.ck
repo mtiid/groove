@@ -139,9 +139,9 @@ public class Groover
             gfx.color(1, 1, 1);
             gfx.rect(posX-border_size/2, posY-border_size/2, border_size, border_size);
             
-            i+1 => int c;
-            if(i == CTRLS)
-                0 => c;
+            i => int c;
+//            if(i == CTRLS)
+//                0 => c;
             // draw control
             gfx.color(colors[c][0], colors[c][1], colors[c][2]);
             gfx.rect(posX-box_size/2, posY-box_size/2, box_size, box_size);

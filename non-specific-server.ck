@@ -10,25 +10,7 @@ OscSend xmit[targets];
 
 // aim the transmitter at port
 xmit[0].setHost ( "localhost", port );
-//xmit[1].setHost ( "albacore.local", port );
-/*xmit[2].setHost ( "transfat.local", port );
-xmit[3].setHost ( "tofurkey.local", port );
-xmit[4].setHost ( "shabushabu.local", port );
-xmit[5].setHost ( "dolsotbibimbop.local", port );
-xmit[6].setHost ( "blt.local", port );
-xmit[7].setHost ( "heartstop.local", port );
-xmit[8].setHost ( "doubledouble.local", port );
-xmit[9].setHost ( "flavorblasted.local", port );
-xmit[10].setHost ( "aguachile.local", port );
-xmit[11].setHost ( "turducken.local", port );
-xmit[12].setHost ( "xiaolongbao.local", port );
-xmit[13].setHost ( "tikkamasala.local", port );
-xmit[14].setHost ( "froyo.local", port );
-xmit[15].setHost ( "pupuplatter.local", port );
-xmit[16].setHost ( "peanutbutter.local", port );
-xmit[17].setHost ( "quesadilla.local", port );
-xmit[18].setHost ( "snickers.local", port );
-*/
+
 // get pane
 //AudicleGroove.pane() @=> AudiclePane @ pane;
 
